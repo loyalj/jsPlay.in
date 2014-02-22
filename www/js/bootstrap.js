@@ -1,11 +1,11 @@
 var engineBasePath = '/js/';
-var gameBasePath = 'game/cosmic_frontier/';
+var gameBasePath = 'game/pong/';
 
 require.config({
     'baseUrl': engineBasePath,
     'paths': {
         'engineFile': 'gameEngineRQ',
-        'gameFile': 'game/cosmic_frontier/main'
+        'gameFile': 'game/pong/pong'
     }
 });
 

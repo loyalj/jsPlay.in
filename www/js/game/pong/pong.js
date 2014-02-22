@@ -1,5 +1,5 @@
 define(['/js/lib/spriteSheetFactory',
-        './gameMenu'
+        '/js/game/pong/gameMenu'
     ],
     
     function (sprite,
